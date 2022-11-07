@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 2000px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 100%;
+}
+
+header{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+
+.barraSuperior{
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    
+    
+}
+
+#logo{
+    border: 1px solid black;
+    margin-right: auto;
+}
+
+
+#menu{
+    margin-right: auto;
+    display: flex;
+    list-style-type: none;
+}
+
+#menu li{
+    border: 1px solid black;
+    padding: 8px;
+    
+}
+
+.conteudo{
+    display: flex;
+    border: 1px solid black;    
+    padding: 5px;
+    background-color: aqua;
+    height: 100%;
+}
+
+.main{
+    border: 1px solid black;
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 55px;
+    
+}
+
+#barraLateral{
+    max-width: 150px;
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 55px;
+}
+
+#bola{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#nome{
+    margin-left: 150px;
+}
+
+
